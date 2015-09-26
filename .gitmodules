@@ -7,3 +7,6 @@
 [submodule "esptool"]
 	path = esptool
 	url = https://github.com/themadinventor/esptool.git
+[submodule "mkspiffs"]
+	path = mkspiffs
+	url = https://github.com/digitalloggers/mkspiffs.git
