@@ -3,7 +3,7 @@
 	url = https://github.com/digitalloggers/nodemcu-firmware.git
 [submodule "esp-open-sdk"]
 	path = esp-open-sdk
-	url = https://github.com:digitalloggers/esp-open-sdk.git
+	url = https://github.com/digitalloggers/esp-open-sdk.git
 [submodule "esptool"]
 	path = esptool
 	url = https://github.com/themadinventor/esptool.git
