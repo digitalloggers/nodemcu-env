@@ -27,6 +27,6 @@ SPIFS_SIZE=$(($FLASH_SIZE-$INTERNAL_FLASH_SECTOR_SIZE*$SYS_PARAM_SEC_NUM-$SPIFS_
     --size   $SPIFS_SIZE                 \
     --no-format                          \
     --create "$DIRECTORY"                \
-    "$OUTPUT"
+    "$OUTPUT" >/dev/null
 
 echo $SPIFS_START
