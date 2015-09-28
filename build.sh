@@ -11,6 +11,10 @@ fi
     make
 }
 {
+    cd $HERE/mkspiffs
+    make
+}
+{
     cd $HERE/nodemcu-firmware
     PATH=$HERE/esp-open-sdk/xtensa-lx106-elf/bin:$PATH make
     PATH=$HERE/esp-open-sdk/xtensa-lx106-elf/bin:$PATH $LUA tools/cross-lua.lua
