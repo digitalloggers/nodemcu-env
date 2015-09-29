@@ -26,6 +26,7 @@ SPIFS_SIZE=$(($FLASH_SIZE-$INTERNAL_FLASH_SECTOR_SIZE*$SYS_PARAM_SEC_NUM-$SPIFS_
     --page   $LOG_PAGE_SIZE              \
     --size   $SPIFS_SIZE                 \
     --no-format                          \
+    --relative                           \
     --create "$DIRECTORY"                \
     "$OUTPUT" >/dev/null
 
