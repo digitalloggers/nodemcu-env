@@ -8,7 +8,7 @@ else
 fi
 {
     cd $HERE/esp-open-sdk
-    make
+    make VENDOR_SDK=0.9.6b1
 }
 {
     cd $HERE/mkspiffs
