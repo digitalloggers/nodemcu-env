@@ -10,3 +10,6 @@
 [submodule "mkspiffs"]
 	path = mkspiffs
 	url = https://github.com/digitalloggers/mkspiffs.git
+[submodule "nodemcu-uploader"]
+	path = nodemcu-uploader
+	url = https://github.com/kmpm/nodemcu-uploader.git
