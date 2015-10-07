@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 HERE=`dirname $0`
 HERE=`realpath $HERE`
 if [ $# -ge 1 ]; then
