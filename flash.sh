@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 HERE=`dirname $0`
 HERE=`realpath $HERE`
 $HERE/esp-open-sdk/esptool/esptool.py write_flash \
