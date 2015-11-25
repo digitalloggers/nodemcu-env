@@ -17,10 +17,7 @@ fi
 }
 {
     cd $HERE/nodemcu-firmware
-    for D in include ld lib; do
-        rm -rf $D
-        ln -s $HERE/esp-open-sdk/sdk/$D $D
-    done
+    ln -fs $HERE/esp-open-sdk/sdk sdk/sdk
     PATH=$HERE/esp-open-sdk/xtensa-lx106-elf/bin:$PATH make
     PATH=$HERE/esp-open-sdk/xtensa-lx106-elf/bin:$PATH $LUA tools/cross-lua.lua
 }
